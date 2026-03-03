@@ -1,0 +1,17 @@
+# t03 IOC Instances and Services
+
+This repository holds the a definition of t03 IOC Instances and services. Each sub folder of the `services` directory contains a helm chart for a specific service or IOC. The corresponding deployments repo can be found at [https://gitlab.diamond.ac.uk/controls/containers/beamline/t03-deployment].
+
+## Using pre-commit hooks
+
+Pre commit hooks will validate the synoptic and additional soft support if present. To install pre-commit hooks run:
+
+```bash
+uvx pre-commit install
+```
+
+To force execution of the pre-commit hooks on all files run:
+
+```bash
+uvx pre-commit run --all-files
+```
