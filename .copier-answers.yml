@@ -6,7 +6,7 @@ cluster_name: argus
 cluster_namespace: kwd30084
 description: t03 IOC Instances and Services
 domain: t03
-gateway: false
+gateway: true
 git_platform: github.com
 location: bl03t
 logging_url: https://graylog2.diamond.ac.uk/search?rangetype=relative&fields=message%2Csource&width=1489&highlightMessage=&relative=172800&q=pod_name%3A{service_name}*

@@ -15,12 +15,12 @@ entities:
   - type: pvlogging.PvLogging
 
   - type: autosave.Autosave
-    P: "BL01T-MO-SIM-01:"
+    P: "BL03T-MO-SIM-01:"
 
   - type: motorSim.simMotorController
     controllerName: sim-controller1
     numAxes: 3
-    P: "BL01T-MO-SIMC-01:"
+    P: "BL03T-MO-SIMC-01:"
 
   - type: motorSim.simMotorAxis
     controller: sim-controller1
